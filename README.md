@@ -33,3 +33,8 @@ These proposal could be evaluate for further work:
 * Other metrics could be added:
   * top-K customers per month
   * new customer per day
+  
+## What have I done so far?
+At the time of writing these components are ready:
+* [Excel Loading to Kafka](https://github.com/antfranzoso/onlineretail/blob/master/src/main/scala/com/finconsgroup/onlineretail/excel/SourceOnlineRetailExcelProducer.scala)
+* [Kafka Streams app to produce metrics](https://github.com/antfranzoso/onlineretail/blob/master/src/main/scala/com/finconsgroup/onlineretail/stream/OnlineRetailStream.scala)
